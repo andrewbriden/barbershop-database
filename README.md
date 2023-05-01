@@ -6,6 +6,11 @@
 
 ## Table of Contents
 * [Domain Description](#domain-description)
+* [Entities and Relationships](#entities-and-relationships)
+* [Entity-Relationship Diagram](#entity-relationship-diagram)
+* [Relational Schema](#relational-schema)
+* [Boyce–Codd Normal Form Decomposition](#boyce-codd-normal-form-decomposition
+* [SQL Files](#sql-files)
 
 
 ## Domain Description
@@ -47,7 +52,7 @@ loyalty_membership(customer_id, start_date, points)
 ```
 ## Boyce–Codd Normal Form Decomposition 
 
-## Components
+## SQL Files
 * [DDL File](link)
 * [DML Seed File](link)
 * [SQL Queries](link)
