@@ -10,7 +10,7 @@ The barbershop database is designed to store information related to a barbershop
 ## Entities and Relationships
 The Barbershop Database will include several entities, each with unique functions that work together and are related in various ways.
 
-```Barber```: This entity contains the information of what individual barber is working. This will include a unique number identifier and their name.
+* ```Barber```: This entity contains the information of what individual barber is working. This will include a unique number identifier and their name.
 
 ```Customer```: This entity contains individual customer’s data, including a unique number identifier, name, email, and phone number.
 
