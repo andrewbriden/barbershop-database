@@ -43,12 +43,19 @@ The Barbershop Database will include several entities, each with unique function
 ## Relational Schema
 ```
 barber(barber_id, name)
+
 customer(customer_id, name, email, phone)
+
 appointment(appointment_id, appointment_date, appointment_time, customer_id, barber_id, service_id)
+
 service(service_id, name, price)
+
 payment(payment_id, amount, type, appointment_id)
+
 feedback(feedback_id, rating, comment, appointment_id)
+
 product(product_id, name, description, per_use_price)
+
 loyalty_membership(customer_id, start_date, points)
 ```
 ## Boyce-Codd Normal Form Decomposition
