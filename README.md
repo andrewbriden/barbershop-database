@@ -9,7 +9,7 @@
 * [Entities and Relationships](#entities-and-relationships)
 * [Entity-Relationship Diagram](#entity-relationship-diagram)
 * [Relational Schema](#relational-schema)
-* [Boyce–Codd Normal Form Decomposition](#boyce-codd-normal-form-decomposition
+* [Boyce–Codd Normal Form Decomposition](#boyce-codd-normal-form-decompositiondecomposition)
 * [SQL Files](#sql-files)
 
 
@@ -50,7 +50,7 @@ feedback(feedback_id, rating, comment, appointment_id)
 product(product_id, name, description, per_use_price)
 loyalty_membership(customer_id, start_date, points)
 ```
-## Boyce–Codd Normal Form Decomposition 
+## BCNF Decomposition 
 
 ## SQL Files
 * [DDL File](link)
