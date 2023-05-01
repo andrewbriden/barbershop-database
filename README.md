@@ -3,6 +3,7 @@
 ## Project Information 👤
 * Author: [Andrew Briden]
 * Date: [5/01/2023]
+* Course: [CPSC 372]
 
 ## Table of Contents
 * [Domain Description](#domain-description)
