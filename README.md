@@ -1,4 +1,4 @@
-<h1 align="center">Social Media Database Project</h1>
+<h1 align="center">Barbershop Database Project</h1>
 
 ## Project Information
 * Name: [Andrew Briden]
