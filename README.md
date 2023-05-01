@@ -25,10 +25,13 @@ Product: This entity contains information about individual products, including t
 Loyalty_membership: This entity contains information about individual loyalty memberships, including the customer ID, start date, and points. Each loyalty membership is assigned a unique identifier to ensure that its information can be easily tracked and accessed.
 
 ## Entity-Relationship Diagram 
+![Entity-Relationship Diagram](https://github.com/andrewbriden/Barber-Shop-/blob/main/er.png)
 
 ## Relational Schema
 
 ## Boyce–Codd Normal Form Decomposition 
-
+<div style="background-color:#f2f8ff; border-radius: 5px; padding: 10px;">
+  <p>Your text goes here.</p>
+</div>
 ## Transaction and Query Executions 
-[Show a complete all of the query executions defined in the project instructions. Each instruction should include 1) An English-written description of the query, the SQL query, and the result set. Please avoid screenshots and just provide the captured console text. (You may want to try the script tool for easy capturing of the console text, or some other redirection/copy/paste technique.)]
+``` test ```
