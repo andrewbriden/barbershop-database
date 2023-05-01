@@ -50,7 +50,7 @@ feedback(feedback_id, rating, comment, appointment_id)
 product(product_id, name, description, per_use_price)
 loyalty_membership(customer_id, start_date, points)
 ```
-## Boyce–Codd Normal Form Decomposition
+## Boyce-Codd Normal Form Decomposition
 
 ## SQL Files
 * [DDL File](link)
