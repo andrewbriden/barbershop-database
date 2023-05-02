@@ -61,8 +61,8 @@ loyalty_membership(customer_id, start_date, points)
 ## Boyce-Codd Normal Form Decomposition
 
 ## SQL Files
-* [DDL File](link)
-* [DML Seed File](link)
-* [SQL Queries](link)
+* [DDL File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ddl.sql)
+* [DML Seed File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-dml.sql)
+* [SQL Queries](https://github.com/andrewbriden/barbershop-database/blob/main/barber_queries.sql)
 
 
