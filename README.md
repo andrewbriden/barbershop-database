@@ -7,6 +7,7 @@
 
 ## Table of Contents
 * [Domain Description](#domain-description)
+* [Limits and Assumptions](#limits-and-assumptions)
 * [Entities and Relationships](#entities-and-relationships)
 * [Entity-Relationship Diagram](#entity-relationship-diagram)
 * [Relational Schema](#relational-schema)
@@ -16,6 +17,10 @@
 
 ## Domain Description
 The barbershop database is designed to store information related to a barbershop, especially with a loyal customer-base. While new customers can be added, the database provides the structure to track customer activity and services, while also keeping track of typical barber shop entities, including appointments, barbers, customers, feedback, and loyalty points. The main purpose of this database is to provide more streamlined customer analytics to better improve the experience of customers.
+
+## Limits and Assumptions
+The scope limit of this database focuses on the barbershop's appointments, and the corresponding information about customers. I originally had a product attribute, but I found this was beyond the scope of customer analytics, touching more into inventory. 
+The assumptions for this database are as follows. Each unique appointment has one barber and one service. Customers can have multiple appointments, but they cannot be at the same time. 
 
 ## Entities and Relationships 
 The Barbershop Database will include several entities, each with unique functions that work together and are related in various ways.
