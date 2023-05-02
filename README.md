@@ -71,7 +71,7 @@ There are no partial dependencies, or separate attribute groups, so it satisfies
 Attributes are dependent on their primary keys of their respective table.
 
 **BCNF**
-There are no functional relationships or dependencies that violate BCNF. 
+There are no functional relationships or dependencies that violate BCNF. It is BCNF because appoitnment_id acts as a primary key, as every appointment is unique.
 
 ## SQL Files 
 * [DDL File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ddl.sql)
