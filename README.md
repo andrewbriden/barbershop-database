@@ -1,4 +1,4 @@
-<h1 align="center">Barbershop Database Project</h1>
+<h1 align="center">:scissors: Barbershop Database Project :scissors:</h1>
 
 ## Project Information 👤
 * Author: [Andrew Briden]
@@ -17,7 +17,7 @@
 ## Domain Description
 The barbershop database is designed to store information related to a barbershop, especially with a loyal customer-base. While new customers can be added, the database provides the structure to track customer activity and services, while also keeping track of typical barber shop entities, including appointments, barbers, customers, feedback, and loyalty points. The main purpose of this database is to provide more streamlined customer analytics to better improve the experience of customers.
 
-## Entities and Relationships :scissors:
+## Entities and Relationships 
 The Barbershop Database will include several entities, each with unique functions that work together and are related in various ways.
 
 * ```Barber```: This entity contains the information of what individual barber is working. This will include a unique number identifier and their name.
@@ -54,9 +54,9 @@ feedback(feedback_id, rating, comment, appointment_id)
 
 loyalty_membership(customer_id, start_date, points)
 ```
-## Boyce-Codd Normal Form Decomposition :package:
+## Boyce-Codd Normal Form Decomposition 
 
-## SQL Files :truck:
+## SQL Files 
 * [DDL File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ddl.sql)
 * [DML Seed File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-dml.sql)
 * [SQL Queries](https://github.com/andrewbriden/barbershop-database/blob/main/barber_queries.sql)
