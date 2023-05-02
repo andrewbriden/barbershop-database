@@ -32,13 +32,11 @@ The Barbershop Database will include several entities, each with unique function
 		 	 	 		
 * ```Feedback```: This entity contains information about the feedback for each corresponding appointment. The entities include the feedback ID, rating (between 1-5), comment, and appointment ID.
 
-* ```Product```: This entity contains information about individual products, including the product ID, name, description, and per-use price.
-
 * ```Loyalty_membership```: This entity contains information about individual loyalty memberships, including the customer ID, start date, and points. Each loyalty membership is assigned a unique identifier to ensure that its information can be easily tracked and accessed.
 
 
 ## Entity-Relationship Diagram 
-![Entity-Relationship Diagram](https://github.com/andrewbriden/Barber-Shop-/blob/main/er.png)
+![Entity-Relationship Diagram](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ERModel.png)
 
 ## Relational Schema
 ```
@@ -53,8 +51,6 @@ service(service_id, name, price)
 payment(payment_id, amount, type, appointment_id)
 
 feedback(feedback_id, rating, comment, appointment_id)
-
-product(product_id, name, description, per_use_price)
 
 loyalty_membership(customer_id, start_date, points)
 ```
