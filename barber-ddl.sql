@@ -13,7 +13,6 @@ DROP TABLE IF EXISTS appointment;
 DROP TABLE IF EXISTS service;
 DROP TABLE IF EXISTS payment;
 DROP TABLE IF EXISTS feedback;
-DROP TABLE IF EXISTS product;
 DROP TABLE IF EXISTS loyalty_membership;
 
 CREATE TABLE barber (
@@ -62,12 +61,6 @@ CREATE TABLE feedback (
   FOREIGN KEY (appointment_id) REFERENCES appointment(appointment_id)
 );
 
-CREATE TABLE product (
-  product_id INT PRIMARY KEY,
-  name VARCHAR(50),
-  description VARCHAR(255),
-  per_use_price DECIMAL(10, 2)
-);
 
 CREATE TABLE loyalty_membership (
   customer_id INT,
