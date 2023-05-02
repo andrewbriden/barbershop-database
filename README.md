@@ -41,7 +41,7 @@ The Barbershop Database will include several entities, each with unique function
 
 
 ## Entity-Relationship Diagram 
-![Entity-Relationship Diagram](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ERModel.png)
+![Entity-Relationship Diagram](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ermodel.png)
 
 ## Relational Schema 
 ```
