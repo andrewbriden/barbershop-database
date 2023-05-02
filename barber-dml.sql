@@ -54,13 +54,6 @@ VALUES
     (3, 'Shave', 20.00);
 
 
--- INSERT statements for products table
-INSERT INTO product (product_id, name, description, per_use_price)
-VALUES
-    (1, 'Hair Gel', 'Gentle cleansing shampoo for all hair types', 3.00),
-    (2, 'Shampoo', 'Hydrating conditioner for dry or damaged hair', 4.00),
-    (3, 'Shaving Gel', 'Strong hold hair gel for all hair types', 5.00);
-
 -- INSERT statements for payment table
 INSERT INTO payment (payment_id, amount, type, appointment_id) 
 VALUES 
