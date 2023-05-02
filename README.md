@@ -1,4 +1,4 @@
-<h1 align="center">:scissors: Barbershop Database Project :scissors:</h1>
+<h1 align="center">Barbershop Database Project </h1>
 
 ## Project Information 👤
 * Author: [Andrew Briden]
@@ -55,6 +55,23 @@ feedback(feedback_id, rating, comment, appointment_id)
 loyalty_membership(customer_id, start_date, points)
 ```
 ## Boyce-Codd Normal Form Decomposition 
+**Nontrivial Dependencies**
+* appointment_id -> appointment_date, appointment_time, customer_id, barber_id, service_id
+* payment_id -> amount, type, appointment_id
+* feedback_id -> rating, comment, appointment_id
+* loyalty_membership -> customer_id, start_date, points
+
+**1. First Normal Form (1NF):**
+Each table has a primary key and all attributes are atomic, no repeated attributes.
+
+**2. Second Normal Form (2NF):**
+There are no partial dependencies, or separate attribute groups, so it satisfies this.
+
+**3. Third Normal Form (3NF):**
+Attributes are dependent on their primary keys of their respective table.
+
+**BCNF**
+There are no functional relationships or dependencies that violate BCNF. 
 
 ## SQL Files 
 * [DDL File](https://github.com/andrewbriden/barbershop-database/blob/main/barber-ddl.sql)
